@@ -35,13 +35,13 @@ _ Watch this walk through video:  https://youtu.be/P2Y9W29kcjs
 ### Follow these steps for completing your project after your MVP is completed:
 
 - [X] Submit a Pull-Request to merge `<firstName-lastName>` Branch into master (student's Repo). **Please don't merge your own pull request**
-- [ ] Add your Project Manager as a Reviewer on the Pull-request
+- [X] Add your Project Manager as a Reviewer on the Pull-request
 - [ ] PM then will count the HW as done by merging the branch back into master.
 
 ## MVP Requirements
 
 - [X] Study the code base and identify both responsive units and where media queries were used.  Take notes on anything that confuses you or interesting things you find.  Share this information in your standup meeting with your group
-- [ ] Customize the template to you 
+- [X] Customize the template to you 
 	- [X] Update the title tag match your name
 	- [X] Update the place holder content throughout the template to your information
 		* Some templates are much larger than others, you don't need to fill in every little div with information, just try to get the site representing you and your work 
