@@ -2,6 +2,7 @@ import React from "react";
 import Container from "@material-ui/core/Container";
 import { makeStyles } from "@material-ui/core/styles";
 import { Typography } from "@material-ui/core";
+import Particles from "react-particles-js";
 
 const useStyles = makeStyles({
   box: {
@@ -28,6 +29,18 @@ const Home = () => {
   return (
     <React.Fragment>
       <Container className={classes.box}>
+        <Particles
+          params={{
+            polygon: {
+              enable: true,
+              type: "inside",
+              move: {
+                radius: 10,
+              },
+              url: "../images/maple-leaf.svg",
+            },
+          }}
+        ></Particles>
         <Typography variant="h1" className={classes.title}>
           Welcome
         </Typography>
